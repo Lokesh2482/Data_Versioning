@@ -13,3 +13,5 @@ Because initially we were tracking data/ folder from git so now we remove it for
 11.git add commit push to mark the stage as the first version of data(we will roll back here if required in future)
 12.Now make changes to mycode.py to append a new row in data, check changes via "dvc status"
 13.Again - - "dvc commit" and then "dvc push"
+14.Then git add-commit-push (we're saving V2 of our data at this point)
+15.Check dvc/git status, everything should be upto date.
