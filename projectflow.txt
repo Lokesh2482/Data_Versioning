@@ -15,3 +15,5 @@ Because initially we were tracking data/ folder from git so now we remove it for
 13.Again - - "dvc commit" and then "dvc push"
 14.Then git add-commit-push (we're saving V2 of our data at this point)
 15.Check dvc/git status, everything should be upto date.
+
+16. Lets say alice doesnt want to be with any of the two gfs he made, he wants to stay single so for that what we have to do is that we have to roll back to the previous version of the data that is the first version of the data. This is one of the most important step for data versioning.
