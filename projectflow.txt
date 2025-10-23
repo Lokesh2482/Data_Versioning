@@ -8,4 +8,6 @@
 8.next "dvc add data"(everytime a data is committed, dvc is responsible to track changes made in the data file)
 Now it will ask to do: ("git rm -r --cached 'data'" and "git commit -m "stop tracking data"")
 Because initially we were tracking data/ folder from git so now we remove it for DVC to handle.
-9.Again we do "dvc add data/" (creates data.dvc) then "git add .gitignore data.dvc"(for git to keep tracking and not forget)
+9.Again we do "dvc add data/" (creates data.dvc) then "git add .gitignore data.dvc"(for git to keep tracking and not forget, this is done to keep git upto date)
+10.Now - "dvc commit" and then "dvc push"(2 files pushed : 1 file with the unique md5 id and other the data itself)
+11. git add commit push to mark the stage as the first version of data
